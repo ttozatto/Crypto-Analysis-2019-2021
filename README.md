@@ -3,7 +3,11 @@
 ## Introduction
 This is a study on the crypto market between the years of 2019 and 2021.
 
-## Dependecies
+In the notebook I show some analysis on what happened to the biggest tokens in this period and some insight about the Sharpe Ratio applied to crypto.
+
+I wrote a blog post in Medium using this project: https://medium.com/@ttozatto.ds/can-we-guess-the-best-cryptos-looking-at-sharpe-ratio-19cfc89a71a
+
+## Dependency 
  - requests = 2.27.1
  - json = 2.0.9
  - pandas = 1.2.5
@@ -12,3 +16,5 @@ This is a study on the crypto market between the years of 2019 and 2021.
  - plotly = 5.6.0
  - my fork of cryptoCMD (a scraper for coinmarket.com) -> https://github.com/ttozatto/cryptoCMD
  - - The fork just add the `id_number` parameter to distinguish different tokens that are represented by the same `symbol`.
+
+You will need a free API key from https://coinmarketcap.com/api/
